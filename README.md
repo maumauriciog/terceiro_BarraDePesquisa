@@ -1,5 +1,5 @@
 # 🤝 Barra de Pesquisa
-Barra de pesquisa com estilo.
+Barra de pesquisa com estilo. Foi acrescentado também uma área para listas de músicas.
 <b>
 # 📸 Screenshots
 <!-- You can add more screenshots here if you like -->
