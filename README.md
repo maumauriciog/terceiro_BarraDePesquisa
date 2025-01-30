@@ -3,7 +3,7 @@ Barra de pesquisa com estilo.
 <b>
 # 📸 Screenshots
 <!-- You can add more screenshots here if you like -->
-<img src="src/assets/figA.png" width="250">&emsp;
+<img src="src/assets/imgA.png" width="250">&emsp;
 
 # 💻 Tecnologias
 * HTML
