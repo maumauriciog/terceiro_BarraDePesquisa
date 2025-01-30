@@ -1,0 +1,119 @@
+/* HEADER */
+
+.main-container {
+    max-width: 80vw;
+    height: 30vh;
+    margin-top: 18px;
+    margin-left: 320px;
+    margin-right: 40px;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: var(--cinza-escuro);
+}
+
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navigation .navigation .arrow_left {
+    margin-right: 1.25rem;
+}
+
+.arrow-left,
+.arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--bg-icon);
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    cursor: pointer;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header__search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 19px;
+    margin-right: 4px;
+}
+
+.header__search input {
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0px 12px;
+    color: #fff;
+    text-overflow: ellipsis;
+    outline: none;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.header__login .subscribe {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login .login {
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.header__login .subscribe:hover {
+    color: var(--branco);
+}
+
+.header__login .login {
+    width: 100px;
+    height: 48px;
+    color: var(--preto);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+/* HOVER */
+.header__login .login:hover {
+    transform: scale(1.04);
+}
+
+/* FIM HOVER */
+
+/*FIM HEADER */
