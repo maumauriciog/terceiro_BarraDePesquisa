@@ -117,3 +117,29 @@
 /* FIM HOVER */
 
 /*FIM HEADER */
+
+.playlist-container {
+    height: 69vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #242424;
+}
+
+.playlist {
+    margin: 25px;
+}
+
+.playlist #greating {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.playlist .greating-subtitle {
+    color: #fff;
+    font-size: 20px;
+}
+
+/*classes são para o css e ids para JS*/
