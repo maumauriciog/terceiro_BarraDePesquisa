@@ -154,15 +154,12 @@
     width: 1px;
 }
 
-/*------ fim de scroll ----------*/
-
 
 /*------ lista dos ítens (demostra como os itens ficam posicionado no container ----------*/
 .offer__list-item {
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 16px;
     gap: 16px;
     margin-bottom: 10px;
 
@@ -176,21 +173,6 @@
     background-color: transparent;
 }
 
-.offer__list-item {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-    gap: 16px;
-    margin-bottom: 16px;
-
-    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
-    display: grid;
-    gap: 10px;
-    grid-gap: 15px;
-    margin: 0 auto;
-}
-
 .cards {
     position: relative;
     width: 150px;
@@ -200,10 +182,10 @@
 }
 
 .cards span {
-    padding: 16px;
+    padding: 10px;
     position: absolute;
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -244,7 +226,7 @@
 }
 
 .card11 {
-    background-color: rgb(80, 55, 80);
+    background-color: rgb(107, 228, 125);
 }
 
 .card12 {
@@ -268,7 +250,7 @@
     right: 0;
     bottom: 0;
     height: auto;
-    width: 170px;
+    width: 100px;
     transform: rotate(25deg) translate(18%, -2%);
 }
 
@@ -289,4 +271,94 @@
     min-width: 767px;
   }
 
+  .artist-card {
+    background: #9e8b8b;
+    border-radius: 8px;
+    -ms-flex: 1;
+    flex: 1;
+    isolation: isolate;
+    padding: 16px;
+    position: relative;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+
+  .artist-card:hover {
+    background-color: #252525;
+  }
+
+  .card-img {
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .artist-img {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-height: 62px;
+  }
+
+  .card-text a {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+
+  .artist-name {
+    box-sizing: border-box;
+    margin-block: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-block-end: 8px;
+  }
+
+  .artist-categorie {
+    color: #6a6a6a;
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
   
+  .play {
+    position: relative;
+  }
+
+  .play .fa-play {
+    position: absolute;
+    right: 10px;
+    top: 120px;
+    padding: 18px;
+    background-color: #1db954;
+    border-radius: 100%;
+    font-size: 14px;
+    opacity: 0;
+    transition: all ease 0.4s;
+  }
+
+  .artist-card:hover .play .fa-play {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+  
+  .play .fa-play:hover {
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  #result-artist {
+    padding: 20px 40px;
+  }
